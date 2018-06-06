@@ -10,7 +10,7 @@ N = 5; % Number of stages
 
 w = -pi:1e-4:pi;
 
-z = e.^(1j * w);
+z = exp(1j * w);
 
 % CIC filter frequency response
 
